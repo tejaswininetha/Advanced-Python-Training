@@ -1,0 +1,5 @@
+#count days
+from datetime import date
+a=date(2005,7,7)
+b=date(2026,4,28)
+print("no of days he lived:", b-a)
