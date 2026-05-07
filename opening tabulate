@@ -1,0 +1,8 @@
+data=[["teju",20,"csm"],
+      ["Akash",16,"aiml"],
+      ["Meera",34,"cse"],
+      ["Ravi",50,"it"]]
+res=tabulate(data,headers=title,tablefmt="pretty")
+with open("Hithika.txt", 'w')as file:
+    file.write(res)
+print("Done")
